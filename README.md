@@ -28,7 +28,7 @@
 *Engineered and fabricated a physical autonomous mobile robot (AMR) platform for targeted multi-waypoint navigation.*
 - **Core Stack:** ROS2, Nav2, C++, Python, LiDAR, Ubuntu
 - **Key Milestones:** Completed full hardware-software systems integration. Handled LiDAR hardware configurations to run real-time SLAM mapping and localized navigation routines via the Nav2 stack. Deployed a localized voice command module.
-- 📂 [View Repository](https://github.com/kirunish14/autonomous_car) | 🎥 [Watch Demo Video/GIF](https://www.youtube.com/playlist?list=PLWZIE1fsy8kNpTp_CzVgy1H1EfHLfQWAd)
+- 📂 [View Repository](https://github.com/kirunish14/autonomous_car) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kNpTp_CzVgy1H1EfHLfQWAd)
 
 #### 🌐 3. Smart V2X Communication System
 *Built an edge-computing networking grid for real-time vehicular hazard warning streams.*

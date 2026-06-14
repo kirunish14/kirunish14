@@ -28,13 +28,13 @@
 *Engineered and fabricated a physical autonomous mobile robot (AMR) platform for targeted multi-waypoint navigation.*
 - **Core Stack:** ROS2, Nav2, C++, Python, LiDAR, Ubuntu
 - **Key Milestones:** Completed full hardware-software systems integration. Handled LiDAR hardware configurations to run real-time SLAM mapping and localized navigation routines via the Nav2 stack. Deployed a localized voice command module.
-- 📂 [View Repository](https://github.com/kirunish14/autonomous_car) | 
+- 📂 [View Repository](https://github.com/kirunish14/autonomous_car) | 🎥 [Watch Demo Video/GIF](https://www.youtube.com/playlist?list=PLWZIE1fsy8kNpTp_CzVgy1H1EfHLfQWAd)
 
 #### 🌐 3. Smart V2X Communication System
 *Built an edge-computing networking grid for real-time vehicular hazard warning streams.*
 - **Core Stack:** ESP32, C++, MQTT, ESP-NOW, OpenCV
 - **Key Milestones:** Configured decentralized microcontrollers to maintain low-latency Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communication nets. Integrated simple vision filters for node triggers.
-- 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal)
+- 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) | 
 
 - #### 🌐 4. TRAFFIC LIGHT DETECTION USING YOLO
 *eveloped a computer vision system using YOLO and OpenCV for real-time traffic light detection and classification. Created and labeled a custom dataset of 10,000 images and achieved 98% detection accuracy, enabling reliable traffic signal recognition for ADAS and autonomous driving perception systems.*

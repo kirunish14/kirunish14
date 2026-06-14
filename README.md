@@ -46,5 +46,5 @@
 *Developed a real-time Human-Computer Interaction (HCI) framework using computer vision to control system inputs without physical hardware.*
 - **Core Stack:** Python, OpenCV, MediaPipe, PyAutoGUI / Hand Tracking API
 - **Key Milestones:** Implemented robust real-time hand landmark detection and tracking via device camera streams. Mapped spatial coordinates of finger tips to screen pixel values, deploying smooth cursor tracking and gesture-based click logic.
-- 📂 [View Repository](https://github.com/kirunish14/AI-VirtualMouse) | 🎥 [Watch Demo Video/GIF](👉 Insert Link to GIF or YouTube)
+- 📂 [View Repository](https://github.com/kirunish14/AI-VirtualMouse) |
 

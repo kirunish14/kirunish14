@@ -36,13 +36,13 @@
 - **Key Milestones:** Configured decentralized microcontrollers to maintain low-latency Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communication nets. Integrated simple vision filters for node triggers.
 - 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kNpTp_CzVgy1H1EfHLfQWAd)
 
-- #### 🌐 4. TRAFFIC LIGHT DETECTION USING YOLO
+#### 🌐 4. TRAFFIC LIGHT DETECTION USING YOLO
 *eveloped a computer vision system using YOLO and OpenCV for real-time traffic light detection and classification. Created and labeled a custom dataset of 10,000 images and achieved 98% detection accuracy, enabling reliable traffic signal recognition for ADAS and autonomous driving perception systems.*
 - **Core Stack:** Object Detection, Computer Vision, Image Processing, ADAS Perception
 - **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 10,000 images and integrating it with OpenCV for real-time ADAS perception.
 - 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) 🎥 [Watch Output Video](https://youtu.be/lGKhQ9k_ZyM)
 
-- #### 🖐️ 5. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
+#### 🖐️ 5. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
 *Developed a real-time Human-Computer Interaction (HCI) framework using computer vision to control system inputs without physical hardware.*
 - **Core Stack:** Python, OpenCV, MediaPipe, PyAutoGUI / Hand Tracking API
 - **Key Milestones:** Implemented robust real-time hand landmark detection and tracking via device camera streams. Mapped spatial coordinates of finger tips to screen pixel values, deploying smooth cursor tracking and gesture-based click logic.

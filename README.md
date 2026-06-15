@@ -18,11 +18,11 @@
 
 ### 🛸 Featured Research & Engineering Projects
 
-#### 🚗 1. V2X-Assisted Risk-Aware Autonomous Driving
+#### 🚗 1. DeepRL-Based Autonomous Driving Framework
 *Developed a robust autonomous vehicle pipeline using Deep Reinforcement Learning inside the CARLA environment.*
 - **Core Stack:** Python, PyTorch, CARLA API, Linux
 - **Key Milestones:** Implemented a PPO-based reinforcement learning agent. Fused simulated sensor streams with V2X contextual communication layers to build a safety-critical reward supervision framework.
-- 📂 [View Repository](👉 Insert Your Link Here) | 
+- 📂 [View Repository](https://github.com/kirunish14/DeepRL_Based_Autonomous_Driving_Framework) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kPGjP3uaFB_LDmxb1vFYFhs)
 
 #### 🤖 2. ARGOS — Voice-Controlled Campus Messenger Robot
 *Engineered and fabricated a physical autonomous mobile robot (AMR) platform for targeted multi-waypoint navigation.*
@@ -42,7 +42,7 @@
 - **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 10,000 images and integrating it with OpenCV for real-time ADAS perception.
 - 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) 🎥 [Watch Output Video](https://youtu.be/lGKhQ9k_ZyM)
 
-- #### 🖐️ 4. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
+- #### 🖐️ 5. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
 *Developed a real-time Human-Computer Interaction (HCI) framework using computer vision to control system inputs without physical hardware.*
 - **Core Stack:** Python, OpenCV, MediaPipe, PyAutoGUI / Hand Tracking API
 - **Key Milestones:** Implemented robust real-time hand landmark detection and tracking via device camera streams. Mapped spatial coordinates of finger tips to screen pixel values, deploying smooth cursor tracking and gesture-based click logic.

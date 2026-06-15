@@ -16,6 +16,19 @@
 
 ---
 
+### 📝 Research & Publications
+
+#### 📄 Design and Implementation of a Low-Cost V2X Communication System Using Embedded Architectures
+*Authors: Kirunish S, et al. (Prepared for Submission)*
+- **Core Architecture:** ESP32, ESP-NOW, MQTT Protocols, MPU6050 IMU, OpenCV, Python, C++
+- **Abstract Summary:** This paper presents a scalable, energy-efficient Vehicle-to-Everything (V2X) framework utilizing a hybrid communication topology. Low-latency Vehicle-to-Vehicle (V2V) links are achieved via ESP-NOW protocols, while local vehicle-to-infrastructure (V2I) pipelines leverage MQTT over Wi-Fi. 
+- **Integrated Edge Modules:** 
+  - 🛠️ *Hazard Analytics:* Integrated an MPU6050 accelerometer loop for pothole telemetry alongside ultrasonic sensor arrays for cooperative braking logic (exceeding 90% real-time hazard detection accuracy).
+  - 🚦 *Smart Infrastructure:* Implemented real-time traffic congestion monitoring, authority-based emergency notification streams, and smart traffic signal communication routing.
+  - 👁️ *Computer Vision:* Deployed an OpenCV-based parking slot state-detection matrix to manage parking nodes dynamically.
+- 💻 [View Project Source Code](https://github.com/kirunish14/V2X_Communication_protocal)
+
+
 ### 🛸 Featured Research & Engineering Projects
 
 #### 🚗 1. DeepRL-Based Autonomous Driving Framework
@@ -42,7 +55,14 @@
 - **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 10,000 images and integrating it with OpenCV for real-time ADAS perception.
 - 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) 🎥 [Watch Output Video](https://youtu.be/lGKhQ9k_ZyM)
 
-#### 🖐️ 5. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
+#### 🤖 5. Sim-to-Real Autonomous Mobile Robot (AMR)
+*Designed, simulated, and deployed a differential-drive autonomous mobile robot capable of indoor mapping and navigation loops.*
+- **Core Stack:** ROS2 (Humble), Gazebo Simulator, Raspberry Pi 4, 2D LiDAR, Python/C++
+- **Key Milestones:** Developed a high-fidelity digital twin of the physical robot chassis inside Gazebo. Configured URDF files and sensor plugins to stream simulated laser scans. Successfully ported navigation nodes to a Raspberry Pi 4 micro-computer, implementing real-time SLAM and sensor-fusion loops to drive physical actuators.
+- 📂 [View Repository](https://github.com/kirunish14/Niggot-Autonomous_bot/tree/main) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kMzXZU0lplTDneCBv9Czrjx)
+
+
+#### 🖐️ 6. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
 *Developed a real-time Human-Computer Interaction (HCI) framework using computer vision to control system inputs without physical hardware.*
 - **Core Stack:** Python, OpenCV, MediaPipe, PyAutoGUI / Hand Tracking API
 - **Key Milestones:** Implemented robust real-time hand landmark detection and tracking via device camera streams. Mapped spatial coordinates of finger tips to screen pixel values, deploying smooth cursor tracking and gesture-based click logic.

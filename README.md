@@ -42,26 +42,32 @@
 - **Core Stack:** ROS2, Nav2, C++, Python, LiDAR, Ubuntu
 - **Key Milestones:** Completed full hardware-software systems integration. Handled LiDAR hardware configurations to run real-time SLAM mapping and localized navigation routines via the Nav2 stack. Deployed a localized voice command module.
 
-#### 🌐 3. Smart V2X Communication System
+#### 🦾 3. Computer Vision-Controlled Bionic Robotic Arm
+*Engineered an end-to-end mechatronic system utilizing real-time computer vision to map human hand kinematics to a physical robotic arm.*
+- **Core Stack:** Python, OpenCV, MediaPipe, Arduino/ESP32, Serial Communication, Servo Actuators
+- **Key Milestones:** Developed a low-latency pipeline to extract 21 hand landmark coordinates from a live webcam stream. Translated spatial joint angles into PWM servo control signals via custom mathematical scaling matrices. Synchronized real-time physical joint actuation over a high-baud rate serial connection.
+- 📂 [View Repository](https://github.com/kirunish14/Robot-Arm-Gesture-Control)
+
+#### 🌐 4. Smart V2X Communication System
 *Built an edge-computing networking grid for real-time vehicular hazard warning streams.*
 - **Core Stack:** ESP32, C++, MQTT, ESP-NOW, OpenCV
 - **Key Milestones:** Configured decentralized microcontrollers to maintain low-latency Vehicle-to-Vehicle (V2V) and Vehicle-to-Infrastructure (V2I) communication nets. Integrated simple vision filters for node triggers.
 - 📂 [View Repository](https://github.com/kirunish14/V2X_Communication_protocal) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kNpTp_CzVgy1H1EfHLfQWAd)
 
-#### 🌐 4. TRAFFIC LIGHT DETECTION USING YOLO
+#### 🌐 5. TRAFFIC LIGHT DETECTION USING YOLO
 *eveloped a computer vision system using YOLO and OpenCV for real-time traffic light detection and classification. Created and labeled a custom dataset of 10,000 images and achieved 98% detection accuracy, enabling reliable traffic signal recognition for ADAS and autonomous driving perception systems.*
 - **Core Stack:** Object Detection, Computer Vision, Image Processing, ADAS Perception
 - **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 10,000 images and integrating it with OpenCV for real-time ADAS perception.
 - 📂 [View Repository](https://github.com/kirunish14/ADAS-Traffic-Signal-Detection) 🎥 [Watch Output Video](https://youtu.be/lGKhQ9k_ZyM)
 
-#### 🤖 5. Sim-to-Real Autonomous Mobile Robot (AMR)
+#### 🤖 6. Sim-to-Real Autonomous Mobile Robot (AMR)
 *Designed, simulated, and deployed a differential-drive autonomous mobile robot capable of indoor mapping and navigation loops.*
 - **Core Stack:** ROS2 (Humble), Gazebo Simulator, Raspberry Pi 4, 2D LiDAR, Python/C++
 - **Key Milestones:** Developed a high-fidelity digital twin of the physical robot chassis inside Gazebo. Configured URDF files and sensor plugins to stream simulated laser scans. Successfully ported navigation nodes to a Raspberry Pi 4 micro-computer, implementing real-time SLAM and sensor-fusion loops to drive physical actuators.
 - 📂 [View Repository](https://github.com/kirunish14/Niggot-Autonomous_bot/tree/main) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kMzXZU0lplTDneCBv9Czrjx)
 
 
-#### 🖐️ 6. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
+#### 🖐️ 7. AI-Powered Virtual Mouse (Gesture-Controlled Cursor)
 *Developed a real-time Human-Computer Interaction (HCI) framework using computer vision to control system inputs without physical hardware.*
 - **Core Stack:** Python, OpenCV, MediaPipe, PyAutoGUI / Hand Tracking API
 - **Key Milestones:** Implemented robust real-time hand landmark detection and tracking via device camera streams. Mapped spatial coordinates of finger tips to screen pixel values, deploying smooth cursor tracking and gesture-based click logic.

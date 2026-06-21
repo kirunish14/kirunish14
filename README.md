@@ -57,7 +57,7 @@
 #### 🌐 5. TRAFFIC LIGHT DETECTION USING YOLO
 *eveloped a computer vision system using YOLO and OpenCV for real-time traffic light detection and classification. Created and labeled a custom dataset of 500 images and achieved 98% detection accuracy, enabling reliable traffic signal recognition for ADAS and autonomous driving perception systems.*
 - **Core Stack:** Object Detection, Computer Vision, Image Processing, ADAS Perception
-- **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 10,000 images and integrating it with OpenCV for real-time ADAS perception.
+- **Key Milestones:** Achieved 98% traffic light detection accuracy by training a YOLO-based model on a custom dataset of 500 images and integrating it with OpenCV for real-time ADAS perception.
 - 📂 [View Repository](https://github.com/kirunish14/ADAS-Traffic-Signal-Detection) 🎥 [Watch Output Video](https://youtu.be/lGKhQ9k_ZyM)
 
 #### 🤖 6. Sim-to-Real Autonomous Mobile Robot (AMR)

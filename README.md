@@ -43,9 +43,13 @@
 - **Key Milestones:** Completed full hardware-software systems integration. Handled LiDAR hardware configurations to run real-time SLAM mapping and localized navigation routines via the Nav2 stack. Deployed a localized voice command module.
 
 #### 🦾 3. Computer Vision-Controlled Bionic Robotic Arm
-*Engineered an end-to-end mechatronic system utilizing real-time computer vision to map human hand kinematics to a physical robotic arm.*
-- **Core Stack:** Python, OpenCV, MediaPipe, Arduino/ESP32, Serial Communication, Servo Actuators
-- **Key Milestones:** Developed a low-latency pipeline to extract 21 hand landmark coordinates from a live webcam stream. Translated spatial joint angles into PWM servo control signals via custom mathematical scaling matrices. Synchronized real-time physical joint actuation over a high-baud rate serial connection.
+Built a webcam-controlled robotic hand that mirrors the number of fingers shown by the user onto five servo-driven fingers in real time.
+Core Stack: Python, OpenCV, NumPy, PySerial, Arduino (C++), Servo Actuators, Serial Communication
+Key Milestones:
+Built a classical computer-vision pipeline: Gaussian blur, HSV skin segmentation, morphological open/close, bilateral filtering, contour extraction, and convex-hull / convexity-defect analysis to count raised fingers.
+Added live HSV trackbars and a cropped region of interest so the skin mask can be re-calibrated for different lighting and backgrounds.
+Designed a 6-byte ASCII serial protocol ($ + five finger flags) sent at 9600 baud to an Arduino, which parses the frame and drives five servos through the Servo library.
+Documented limitations and next steps: MediaPipe landmarks for proportional (angle-based) control, checksum framing, and a command timeout for fail-safe behaviour.
 - 📂 [View Repository](https://github.com/kirunish14/Robot-Arm-Gesture-Control)
 
 #### 🌐 4. Smart V2X Communication System

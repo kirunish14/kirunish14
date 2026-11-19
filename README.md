@@ -44,8 +44,11 @@
 
 #### 🦾 3. Computer Vision-Controlled Bionic Robotic Arm
 Built a webcam-controlled robotic hand that mirrors the number of fingers shown by the user onto five servo-driven fingers in real time.
+
 Core Stack: Python, OpenCV, NumPy, PySerial, Arduino (C++), Servo Actuators, Serial Communication
+
 Key Milestones:
+
 Built a classical computer-vision pipeline: Gaussian blur, HSV skin segmentation, morphological open/close, bilateral filtering, contour extraction, and convex-hull / convexity-defect analysis to count raised fingers.
 Added live HSV trackbars and a cropped region of interest so the skin mask can be re-calibrated for different lighting and backgrounds.
 Designed a 6-byte ASCII serial protocol ($ + five finger flags) sent at 9600 baud to an Arduino, which parses the frame and drives five servos through the Servo library.

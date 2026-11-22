@@ -37,6 +37,12 @@
 - **Key Milestones:** Implemented a PPO-based reinforcement learning agent. Fused simulated sensor streams with V2X contextual communication layers to build a safety-critical reward supervision framework.
 - 📂 [View Repository](https://github.com/kirunish14/DeepRL_Based_Autonomous_Driving_Framework) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLWZIE1fsy8kPGjP3uaFB_LDmxb1vFYFhs)
 
+#### 🚙 2. Vision & LiDAR-Based Ackermann Autonomous Ground Vehicle Designed and built an autonomous ground vehicle on a modified ride-on car chassis that maps its surroundings, localizes itself and navigates to goals set from a phone, using a 360° 2D LiDAR and a monocular camera.
+- Core Stack: ROS2 (Humble), Nav2, SLAM Toolbox, AMCL, OpenCV, Python, C++ (ESP32), Raspberry Pi 4B, RPLIDAR A1, Ubuntu 22.04 Key Milestones: Built the platform end to end: dual-domain power distribution, an ESP32 Ackermann steering and motor controller with a command    watchdog, and a Sunboard body. Configured SLAM mapping, AMCL localization and Nav2 with a Reeds–Shepp Hybrid-A* planner and Regulated Pure Pursuit controller to enable reverse-and-turn (K-turn) manoeuvres.
+- Designed a behaviour tree for LiDAR obstacle diversion with wait-then-reverse recovery, built an OpenCV vanishing-point corridor detector, and developed a web dashboard for map selection, pose and goal setting, and live LiDAR, path and camera view.
+
+📂 [View Repository](https://github.com/kirunish14/self_driving_car) | 🎥 [Watch Output Video](https://www.youtube.com/playlist?list=PLVAP_nG7tlU4)
+
 #### 🤖 2. ARGOS — Voice-Controlled Campus Messenger Robot
 *Engineered and fabricated a physical autonomous mobile robot (AMR) platform for targeted multi-waypoint navigation.*
 - **Core Stack:** ROS2, Nav2, C++, Python, LiDAR, Ubuntu
